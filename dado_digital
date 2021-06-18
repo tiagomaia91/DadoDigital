@@ -1,0 +1,19 @@
+import random
+
+
+class Dado_Digital:
+    def __init__(self):
+        self.valor_minimo = 1
+        self.valor_maximo = 6
+        self.mensagem = 'Gire o dado para saber qual o dano do seu ataque'
+
+        def Iniciar(self, sim):
+            resposta = input(self.mensagem)
+            if resposta == sim:
+                self.GerarValorDoDado()
+
+                def GerarValordoDado(self):
+                    print(random(self.valor_minimo, self.valor_maximo))
+
+    simulador = Dado_Digital()
+    simulador.iniciar()
